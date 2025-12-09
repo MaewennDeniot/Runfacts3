@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700"); 
+@import url("components/avatar.css"); 
+@import url("components/banner.css"); 
+@import url("components/button.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0;
+  background-color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.container2 {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.card-white {
+  background: white;
+  border-radius: 12px;
+  padding: 50px;
+  margin: 30px;
+  width: 1000px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.7);
+}
+
+#quote {
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  background-image: url("images/mountain.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
